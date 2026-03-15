@@ -19,10 +19,6 @@ jobs:
         with:
           node-version: '22'
           cache: true
-
-      - name: Install dependencies
-        run: vp install
-
       - name: Install Playwright browser
         run: vp exec playwright install --with-deps chromium
 

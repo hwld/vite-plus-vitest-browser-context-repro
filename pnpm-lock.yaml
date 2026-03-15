@@ -11,10 +11,6 @@ overrides:
 importers:
 
   .:
-    dependencies:
-      vitest:
-        specifier: npm:@voidzero-dev/vite-plus-test@^0.1.11
-        version: '@voidzero-dev/vite-plus-test@0.1.11(@voidzero-dev/vite-plus-core@0.1.11(typescript@5.9.3))(typescript@5.9.3)'
     devDependencies:
       playwright:
         specifier: ^1.58.2
