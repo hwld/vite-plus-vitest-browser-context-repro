@@ -9,9 +9,13 @@
     "preview": "vp preview"
   },
   "devDependencies": {
+    "@storybook/addon-vitest": "^10.2.19",
+    "@storybook/html-vite": "^10.2.19",
     "playwright": "^1.58.2",
+    "storybook": "^10.2.19",
     "typescript": "~5.9.3",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
     "vite-plus": "latest"
   },
   "packageManager": "pnpm@10.32.1",
